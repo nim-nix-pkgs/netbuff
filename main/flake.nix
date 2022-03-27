@@ -11,6 +11,7 @@
   inputs.src-netbuff-main.ref   = "refs/heads/main";
   inputs.src-netbuff-main.owner = "jakubDoka";
   inputs.src-netbuff-main.repo  = "netbuff";
+  inputs.src-netbuff-main.dir   = "";
   inputs.src-netbuff-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
